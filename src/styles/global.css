@@ -26,7 +26,7 @@
 @font-face {
 	font-family: "Acumin Pro";
 	src: url("https://fonts.adobe.com/fonts/acumin") format("com");
-	font-weight: 700;
+	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 }
@@ -47,7 +47,7 @@ main {
 	width: 720px;
 	max-width: calc(100% - 2em);
 	margin: auto;
-	padding: 3em 1em;
+	padding: 100px 100px;
 	background: #fbe5ec;
 
 }
@@ -78,7 +78,7 @@ h5 {
 }
 strong,
 b {
-	font-weight: 700;
+	font-weight: 600;
 }
 a {
 	color: var(--accent);
@@ -87,10 +87,10 @@ a:hover {
 	color: var(--accent);
 }
 p {
-	margin-bottom: 1em;
+	margin-bottom: 100px;
 }
 .prose p {
-	margin-bottom: 2em;
+	margin-bottom: 200px;
 }
 textarea {
 	width: 100%;

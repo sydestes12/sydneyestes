@@ -155,3 +155,20 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+.column1 {
+  float: left;
+  width: 25%;
+}
+
+.column2 {
+	float: left;
+	width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

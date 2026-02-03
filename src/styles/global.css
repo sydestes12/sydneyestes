@@ -156,20 +156,17 @@ hr {
 	white-space: nowrap;
 }
 
-.row column1 {
-	float: left;
-	width: 50%;
+.container {
+	display: flex;
+	flex-direction: row;
+	background-color: DodgerBlue;
 }
 
-.row column2 {
-	float: right;
-	width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-	padding: 0px 25px 0px 25px;
+.container div {
+	background-color: #f1f1f1;
+	width: 100px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;  
+	font-size: 30px;
 }

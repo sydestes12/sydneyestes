@@ -164,6 +164,10 @@ hr {
 	margin: 25 25 25 25px;
 }
 
+.project-title {
+	float: left;
+}
+
 /* Clear floats */
 .row:after {
   content: "";

@@ -158,17 +158,15 @@ hr {
 }
 
 /* Create four equal columns that floats next to each other */
-.column1, .column2, .column3, .column4 {
-  	float: left;
-  	width: 50%;
+.project1, .project2, .project3, .project4 {
+	ul li {
+    width: 100%;
+    margin-bottom: 50px;
 }
 
-.project-title {
-	float: left;
-}
-
-.row {
-	padding: 25 25 25 25px;
+	li {
+    display: list-item;
+    unicode-bidi: isolate;
 }
 
 /* Clear floats */

@@ -167,12 +167,15 @@ hr {
 	float: left;
 }
 
+.row {
+	padding: 25 25 25 25px;
+}
+
 /* Clear floats */
 .row:after {
   	content: "";
   	display: table;
    	clear: both;
-	padding: 25 25 25 25px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

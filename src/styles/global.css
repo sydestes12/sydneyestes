@@ -178,14 +178,14 @@ hr {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
-  .column1, .column2, .column3, .column4 {
+  .project1, .project2, .project3, .project4 {
     width: 50%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column1, .column2, .column3, .column4 {
+  .project1, .project2, .project3, .project4 {
     width: 100%;
   }
 }

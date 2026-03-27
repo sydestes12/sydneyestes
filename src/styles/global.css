@@ -161,7 +161,6 @@ hr {
 .column1, .column2, .column3, .column4 {
   	float: left;
   	width: 50%;
-	margin: 25 25 25 25px;
 }
 
 .project-title {
@@ -170,9 +169,10 @@ hr {
 
 /* Clear floats */
 .row:after {
-  content: "";
-  display: table;
-   clear: both;
+  	content: "";
+  	display: table;
+   	clear: both;
+	padding: 25 25 25 25px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

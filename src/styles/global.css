@@ -160,7 +160,7 @@ hr {
 /* Create four equal columns that floats next to each other */
 .column1, .column2, .column3, .column4 {
   float: left;
-  width: 25%;
+  width: 50%;
 }
 
 /* Clear floats */
